@@ -1,0 +1,151 @@
+Entity,Year,Threshold,Percentage
+East Asia and Pacific,1980,below 1.90$ a day,0.6956728291198130
+East Asia and Pacific,1980,1.9 - 3.20$ a day,0.20639323392498200
+East Asia and Pacific,1980,3.20 - 5.50$ a day,0.06479288848675750
+East Asia and Pacific,1980,5.50 - 10$ a day,0.02192957061254180
+East Asia and Pacific,1980,above 10$ a day,0.011211477855906300
+East Asia and Pacific,1990,below 1.90$ a day,0.4821746966675960
+East Asia and Pacific,1990,1.9 - 3.20$ a day,0.2702826332540900
+East Asia and Pacific,1990,3.20 - 5.50$ a day,0.15766561551248000
+East Asia and Pacific,1990,5.50 - 10$ a day,0.062410950850324700
+East Asia and Pacific,1990,above 10$ a day,0.027466103715509300
+East Asia and Pacific,2000,below 1.90$ a day,0.21187168992545800
+East Asia and Pacific,2000,1.9 - 3.20$ a day,0.25276768542366600
+East Asia and Pacific,2000,3.20 - 5.50$ a day,0.251122558524056
+East Asia and Pacific,2000,5.50 - 10$ a day,0.18314964931984800
+East Asia and Pacific,2000,above 10$ a day,0.10108841680697200
+East Asia and Pacific,2010,below 1.90$ a day,0.06554744674620890
+East Asia and Pacific,2010,1.9 - 3.20$ a day,0.15514110028866900
+East Asia and Pacific,2010,3.20 - 5.50$ a day,0.24686307111740300
+East Asia and Pacific,2010,5.50 - 10$ a day,0.27696091705841800
+East Asia and Pacific,2010,above 10$ a day,0.25548746478930000
+Europe and Central Asia,1990,below 1.90$ a day,0.06789466948031180
+Europe and Central Asia,1990,1.9 - 3.20$ a day,0.11923398811918700
+Europe and Central Asia,1990,3.20 - 5.50$ a day,0.22198351633702400
+Europe and Central Asia,1990,5.50 - 10$ a day,0.28580851721952700
+Europe and Central Asia,1990,above 10$ a day,0.3050793088439490
+Europe and Central Asia,2000,below 1.90$ a day,0.04537343814744050
+Europe and Central Asia,2000,1.9 - 3.20$ a day,0.06954711625721220
+Europe and Central Asia,2000,3.20 - 5.50$ a day,0.14680516309373900
+Europe and Central Asia,2000,5.50 - 10$ a day,0.28159430949101600
+Europe and Central Asia,2000,above 10$ a day,0.4566799730105930
+Europe and Central Asia,2010,below 1.90$ a day,0.018649589980275800
+Europe and Central Asia,2010,1.9 - 3.20$ a day,0.04318283141681830
+Europe and Central Asia,2010,3.20 - 5.50$ a day,0.0876680487527445
+Europe and Central Asia,2010,5.50 - 10$ a day,0.2292626302394550
+Europe and Central Asia,2010,above 10$ a day,0.621236899610706
+Latin America and the Caribbean,1980,below 1.90$ a day,0.14510040870373100
+Latin America and the Caribbean,1980,1.9 - 3.20$ a day,0.14234581771414300
+Latin America and the Caribbean,1980,3.20 - 5.50$ a day,0.1958137091522580
+Latin America and the Caribbean,1980,5.50 - 10$ a day,0.2143136378156880
+Latin America and the Caribbean,1980,above 10$ a day,0.3024264266141810
+Latin America and the Caribbean,1990,below 1.90$ a day,0.1399008557852200
+Latin America and the Caribbean,1990,1.9 - 3.20$ a day,0.13920912919624
+Latin America and the Caribbean,1990,3.20 - 5.50$ a day,0.2041576899047670
+Latin America and the Caribbean,1990,5.50 - 10$ a day,0.2309252180394670
+Latin America and the Caribbean,1990,above 10$ a day,0.28580710707430600
+Latin America and the Caribbean,2000,below 1.90$ a day,0.09465033130465810
+Latin America and the Caribbean,2000,1.9 - 3.20$ a day,0.11040439697677100
+Latin America and the Caribbean,2000,3.20 - 5.50$ a day,0.1906674507743190
+Latin America and the Caribbean,2000,5.50 - 10$ a day,0.2503866712342530
+Latin America and the Caribbean,2000,above 10$ a day,0.3538911497099990
+Latin America and the Caribbean,2010,below 1.90$ a day,0.049833830849871100
+Latin America and the Caribbean,2010,1.9 - 3.20$ a day,0.07216189172097770
+Latin America and the Caribbean,2010,3.20 - 5.50$ a day,0.1612765129366080
+Latin America and the Caribbean,2010,5.50 - 10$ a day,0.25448521366805500
+Latin America and the Caribbean,2010,above 10$ a day,0.4622425508244890
+Middle East and North Africa,1980,below 1.90$ a day,0.08487085099014950
+Middle East and North Africa,1980,1.9 - 3.20$ a day,0.22953026271683900
+Middle East and North Africa,1980,3.20 - 5.50$ a day,0.3069462468660960
+Middle East and North Africa,1980,5.50 - 10$ a day,0.23125064019335100
+Middle East and North Africa,1980,above 10$ a day,0.14740199923356400
+Middle East and North Africa,1990,below 1.90$ a day,0.057115036475893
+Middle East and North Africa,1990,1.9 - 3.20$ a day,0.2085726626631270
+Middle East and North Africa,1990,3.20 - 5.50$ a day,0.32050121209280600
+Middle East and North Africa,1990,5.50 - 10$ a day,0.2547309185326720
+Middle East and North Africa,1990,above 10$ a day,0.15908017023550200
+Middle East and North Africa,2000,below 1.90$ a day,0.030265183733675000
+Middle East and North Africa,2000,1.9 - 3.20$ a day,0.15521269931846800
+Middle East and North Africa,2000,3.20 - 5.50$ a day,0.3094886863553660
+Middle East and North Africa,2000,5.50 - 10$ a day,0.2702010056094490
+Middle East and North Africa,2000,above 10$ a day,0.23483242498304200
+Middle East and North Africa,2010,below 1.90$ a day,0.02920683829312170
+Middle East and North Africa,2010,1.9 - 3.20$ a day,0.1194330880406610
+Middle East and North Africa,2010,3.20 - 5.50$ a day,0.27938526412013800
+Middle East and North Africa,2010,5.50 - 10$ a day,0.29256120527621700
+Middle East and North Africa,2010,above 10$ a day,0.2794136042698630
+North America,1980,below 1.90$ a day,0.004736504707553820
+North America,1980,1.9 - 3.20$ a day,0.0022809006808701100
+North America,1980,3.20 - 5.50$ a day,0.0050187771629364000
+North America,1980,5.50 - 10$ a day,0.02983906738648610
+North America,1980,above 10$ a day,0.9581247500621540
+North America,1990,below 1.90$ a day,0.006310644537470200
+North America,1990,1.9 - 3.20$ a day,0.0021758212195378200
+North America,1990,3.20 - 5.50$ a day,0.005539734558737720
+North America,1990,5.50 - 10$ a day,0.02442614411121920
+North America,1990,above 10$ a day,0.961547655573035
+North America,2000,below 1.90$ a day,0.008532659024962440
+North America,2000,1.9 - 3.20$ a day,0.002333077809561050
+North America,2000,3.20 - 5.50$ a day,0.0055862963801370600
+North America,2000,5.50 - 10$ a day,0.017783737369580000
+North America,2000,above 10$ a day,0.9657642294157600
+North America,2010,below 1.90$ a day,0.01037097075641420
+North America,2010,1.9 - 3.20$ a day,0.002330180561890200
+North America,2010,3.20 - 5.50$ a day,0.006449210426058660
+North America,2010,5.50 - 10$ a day,0.01687248342070810
+North America,2010,above 10$ a day,0.9639771548349290
+South Asia,1980,below 1.90$ a day,0.5216033804689500
+South Asia,1980,1.9 - 3.20$ a day,0.3183143767157530
+South Asia,1980,3.20 - 5.50$ a day,0.11835009424681600
+South Asia,1980,5.50 - 10$ a day,0.0325831317371166
+South Asia,1980,above 10$ a day,0.009149016831364860
+South Asia,1990,below 1.90$ a day,0.41241877281811300
+South Asia,1990,1.9 - 3.20$ a day,0.363127278316697
+South Asia,1990,3.20 - 5.50$ a day,0.16517354997257100
+South Asia,1990,5.50 - 10$ a day,0.04746650236499230
+South Asia,1990,above 10$ a day,0.011813896527626300
+South Asia,2000,below 1.90$ a day,0.3082374674631590
+South Asia,2000,1.9 - 3.20$ a day,0.3855008662896540
+South Asia,2000,3.20 - 5.50$ a day,0.20927998727550400
+South Asia,2000,5.50 - 10$ a day,0.07359521548313300
+South Asia,2000,above 10$ a day,0.02338646348854960
+South Asia,2010,below 1.90$ a day,0.15525464841954500
+South Asia,2010,1.9 - 3.20$ a day,0.3722792389062480
+South Asia,2010,3.20 - 5.50$ a day,0.3097024858732270
+South Asia,2010,5.50 - 10$ a day,0.12236320954419800
+South Asia,2010,above 10$ a day,0.04040041725678110
+Sub-Saharan Africa,1990,below 1.90$ a day,0.5799102903247460
+Sub-Saharan Africa,1990,1.9 - 3.20$ a day,0.19829557546491000
+Sub-Saharan Africa,1990,3.20 - 5.50$ a day,0.12370629221623500
+Sub-Saharan Africa,1990,5.50 - 10$ a day,0.06216702597996930
+Sub-Saharan Africa,1990,above 10$ a day,0.03592081601413960
+Sub-Saharan Africa,2000,below 1.90$ a day,0.5113551621542040
+Sub-Saharan Africa,2000,1.9 - 3.20$ a day,0.23608050677786300
+Sub-Saharan Africa,2000,3.20 - 5.50$ a day,0.14702688072542300
+Sub-Saharan Africa,2000,5.50 - 10$ a day,0.06855618206673460
+Sub-Saharan Africa,2000,above 10$ a day,0.0369812682757748
+Sub-Saharan Africa,2010,below 1.90$ a day,0.43652225739120000
+Sub-Saharan Africa,2010,1.9 - 3.20$ a day,0.2507521944299200
+Sub-Saharan Africa,2010,3.20 - 5.50$ a day,0.17283064101355200
+Sub-Saharan Africa,2010,5.50 - 10$ a day,0.09064666892395790
+Sub-Saharan Africa,2010,above 10$ a day,0.04924823824137020
+World,1980,below 1.90$ a day,0.3877104722123460
+World,1980,1.9 - 3.20$ a day,0.17564677888923400
+World,1980,3.20 - 5.50$ a day,0.10193473598145200
+World,1980,5.50 - 10$ a day,0.08386823445382200
+World,1980,above 10$ a day,0.25083977846314700
+World,1990,below 1.90$ a day,0.3183618500611830
+World,1990,1.9 - 3.20$ a day,0.2110921347095820
+World,1990,3.20 - 5.50$ a day,0.14422831459911900
+World,1990,5.50 - 10$ a day,0.09505458907445040
+World,1990,above 10$ a day,0.23126311155566600
+World,2000,below 1.90$ a day,0.21363363831347100
+World,2000,1.9 - 3.20$ a day,0.21081937857316500
+World,2000,3.20 - 5.50$ a day,0.17817921013005500
+World,2000,5.50 - 10$ a day,0.13479457647805000
+World,2000,above 10$ a day,0.262573196505258
+World,2010,below 1.90$ a day,0.12631821491804900
+World,2010,1.9 - 3.20$ a day,0.18175374027565000
+World,2010,3.20 - 5.50$ a day,0.19456068463511400
+World,2010,5.50 - 10$ a day,0.17084777989935900
+World,2010,above 10$ a day,0.3265195802718290
