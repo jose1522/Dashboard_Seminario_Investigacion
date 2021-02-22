@@ -1,0 +1,22 @@
+.person-description{
+  display: inline;
+  min-width: 200px;
+}
+.avatar{
+  height: 150px;
+}
+
+.person {
+  max-height: 50px;
+  justify-content: center;
+  margin: 50px 50px 50px 50px;
+  display:inline-block;
+}
+
+.person-list{
+  text-align: center;
+  padding: 5% 0% 5% 0%;
+  display: root-flow;
+  width: 85%;
+  margin: auto;
+}

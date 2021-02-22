@@ -2,10 +2,8 @@
 title: "Grupo 1 - Seminario Investigación"
 output: 
   flexdashboard::flex_dashboard:
-    storyboard: true
-    orientation: columns
-    vertical_layout: fill
     theme: default
+    css: ./styles.css
     
 runtime: shiny
 ---
@@ -22,7 +20,12 @@ library(highcharter)
 import::from("./productivity.R", region_productivity_chart, country_productivity)
 import::from("./income_level.R", income_level, income_level_chart_generator)
 import::from("./poverty_thresholds.R", poverty_threshold, poverty_threshold_chart_generator)
+import::from("./gdp_capita.R", gdp_capita, gdp_capita_growth_chart_generator, gdp_capita_chart)
+import::from("./person.R", create_person)
 ```
+
+Análisis {.storyboard data-icon="fa-signal"}
+=========================================
 
 ### Productividad per capita ha incrementado constantemente década tras década en todas las regiones, excepto África y Medio Oriente
 
@@ -35,7 +38,7 @@ region_productivity_chart
 - Es una medida de el Producto Interno Bruto por hora laborada.
 - Los datos están calculados al precio internacional del dólar del 2011, ajustado a inflación y a niveles de precio entre países
 - La fecha de inicio es 1970 debido a que es la calidad de los datos previos a ese año es baja
-- Fuente: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), "The Next Generation of the Penn World Table" American Economic Review, 105(10), 3150-3182, available for download at [link](www.ggdc.net/pwt). PWT v9.1
+- Fuente: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), "The Next Generation of the Penn World Table" American Economic Review, 105(10), 3150-3182, available for download at [link](http://www.ggdc.net/pwt). PWT v9.1
 
 
 ### El mayor incremento en productividad se ha visto en el hemisferio norte y algunos países en el pacífico. También cabe destacar el incremento en Arabia Saudita
@@ -72,7 +75,7 @@ sliderInput("year_input", "Año:",
 - Es una medida de el Producto Interno Bruto por hora laborada.
 - Los datos están calculados al precio internacional del dólar del 2011, ajustado a inflación y a niveles de precio entre países
 - La fecha de inicio es 1970 debido a que es la calidad de los datos previos a ese año es baja
-- Fuente: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), "The Next Generation of the Penn World Table" American Economic Review, 105(10), 3150-3182, available for download at [link](www.ggdc.net/pwt). PWT v9.1
+- Fuente: Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), "The Next Generation of the Penn World Table" American Economic Review, 105(10), 3150-3182, available for download at [link](http://www.ggdc.net/pwt). PWT v9.1
 
 
 ### Los datos de productividad muestran una correlación positiva con la estadística de nivel de ingreso del Banco Mundial.
@@ -122,3 +125,52 @@ selectInput(
 - El rango de fechas está determinado por la disponibilidad de los datos.
 - Fuente: [World Bank, PovcalNet](http://iresearch.worldbank.org/PovcalNet/povDuplicateWB.aspx)
 
+
+### El PIB per cápita ha incrementado a nivel mundial desde 1960 en todas las regiones. Cabe destacar que el delta entre la región más productiva y la menos productiva se ha mantenido en 15.5x
+
+```{r}
+gdp_capita_chart
+```
+
+***
+#### **PIB per capita**
+
+- Los datos están calculados al precio internacional del dólar del 2011, ajustado a inflación y a niveles de precio entre países
+- El rango de fechas está determinado por la disponibilidad de los datos.
+- Fuente: [Penn World Table](http://www.ggdc.net/pwt)
+
+
+### Asia oriental y el medio oriente son las regiones con mayor crecimiento en su PIB per cápita desde 1960. El de menor crecimiento ha sido África subsahariana.
+
+```{r}
+renderHighchart( gdp_capita_growth_chart_generator(input$gdp_capita_growth_year,gdp_capita))
+```
+
+***
+#### **PIB per capita - Crecimiento**
+
+```{r}
+sliderInput("gdp_capita_growth_year", "Año:",
+            min = 1970, max = 2019, step = 10,sep = "", 
+            value = 2019)
+```
+
+- Los datos están calculados al precio internacional del dólar del 2011, ajustado a inflación y a niveles de precio entre países
+- El rango de fechas está determinado por la disponibilidad de los datos.
+- Fuente: [Penn World Table](http://www.ggdc.net/pwt).
+
+Integrantes {data-icon="fa-user"}
+=========================================
+
+
+```{r}
+tags$div(class="person-list",
+  create_person("Jose Andrés Moya Porras","Ingeniería Informática"),
+  create_person("Alison Jazmira López Moreno","Ingeniería Informática"),
+  create_person("Dajana Cristal Aguilera Trujillo","Ingeniería Informática"),
+  create_person("David Alvarado Vargas","Enseñanza y traducción del inglés"),
+  create_person("Jair Lopez Morales","Ingeniería Informática"),
+  create_person("Karol Viviana Romero Brenes","Odontología")
+)
+  
+```

@@ -3,7 +3,8 @@ library(readr)
 library(highcharter)
 library(viridisLite)
 
-poverty_threshold <- read_csv("data/final/poverty_thresholds.csv")
+poverty_threshold <- read_csv("data/final/poverty_thresholds.csv") %>%
+                     mutate(across(4, round, 2))
 
 poverty_threshold_chart_generator <- function(region, df){
   hchart(filter(df,Entity==region), "areaspline", 
