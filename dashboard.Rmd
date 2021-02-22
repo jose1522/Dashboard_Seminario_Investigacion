@@ -19,7 +19,7 @@ library(highcharter)
 ```{r data}
 import::from("./productivity.R", region_productivity_chart, country_productivity)
 import::from("./income_level.R", income_level, income_level_chart_generator)
-import::from("./poverty_thresholds.R", poverty_threshold, poverty_threshold_chart_generator)
+import::from("./poverty_thresholds.R", poverty_threshold, poverty_threshold_chart_generator, poverty_threshold_regions_chart_generator)
 import::from("./gdp_capita.R", gdp_capita, gdp_capita_growth_chart_generator, gdp_capita_chart)
 import::from("./person.R", create_person)
 ```
@@ -98,6 +98,28 @@ sliderInput("income_level_year", "Año:",
 - Se seleccionaron las décadas que pudieran calzar con las mostradas en el mapa de productividad
 - Fuente: [World Bank WDI](http://databank.worldbank.org/data/download/site-content/OGHIST.xls)
 
+
+
+### El mayor porcentaje de pobreza extrema se ubica en África subsahariana, donde el nivel de pobreza es 3.4x más alto que el promedio mundial
+
+
+
+```{r}
+renderHighchart(poverty_threshold_regions_chart_generator(input$poverty_threshold,poverty_threshold))
+```
+
+***
+#### **Umbrales de pobreza**
+```{r}
+selectInput(
+  "poverty_threshold", "Region", c('below 1.90$ a day', '1.9 - 3.20$ a day',
+       '3.20 - 5.50$ a day', '5.50 - 10$ a day',
+       'above 10$ a day'),
+  selected = "World",
+  multiple = FALSE,
+  selectize = TRUE,
+)
+```
 
 
 ### A nivel mundial, el porcentaje de personas con ingresos mayores a $10 continua amentando de forma constante, mientras la pobreza extrema disminuye
