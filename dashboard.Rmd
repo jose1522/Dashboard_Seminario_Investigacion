@@ -20,7 +20,7 @@ library(highcharter)
 import::from("./productivity.R", region_productivity_chart, country_productivity)
 import::from("./income_level.R", income_level, income_level_chart_generator)
 import::from("./poverty_thresholds.R", poverty_threshold, poverty_threshold_chart_generator, poverty_threshold_regions_chart_generator)
-import::from("./gdp_capita.R", gdp_capita, gdp_capita_growth_chart_generator, gdp_capita_chart)
+import::from("./gdp_capita.R", gdp_total, gdp_capita, gdp_capita_pct, gdp_capita_growth_chart_generator, gdp_capita_chart, gdp_capita_pie_chart_generator)
 import::from("./person.R", create_person)
 ```
 
@@ -180,6 +180,48 @@ sliderInput("gdp_capita_growth_year", "Año:",
 - Los datos están calculados al precio internacional del dólar del 2011, ajustado a inflación y a niveles de precio entre países
 - El rango de fechas está determinado por la disponibilidad de los datos.
 - Fuente: [Penn World Table](http://www.ggdc.net/pwt).
+
+
+### La region que mayor porcentaje genera es Europa y Asia Central, y se evidencia un retroceso constante en el PIB per capita en america latina a partir de la decada de los 80s
+
+```{r}
+renderHighchart( gdp_capita_pie_chart_generator(input$gdp_capita_pct_year,gdp_capita_pct))
+```
+
+***
+#### **PIB per capita - Porcentaje**
+
+```{r}
+sliderInput("gdp_capita_pct_year", "Año:",
+            min = 1960, max = 2017, step = 20,sep = "", 
+            value = 2017)
+```
+
+- Los datos están calculados al precio internacional del dólar del 2011, ajustado a inflación y a niveles de precio entre países
+- El rango de fechas está determinado por la disponibilidad de los datos.
+- Fuente: [Penn World Table](http://www.ggdc.net/pwt).
+
+
+### Se evidencia la evolucion constante de la region asiatica para convertirse en la region que mas ingresos genera a nivel mundial. 
+
+```{r}
+renderHighchart( gdp_capita_pie_chart_generator(input$gdp_capita_total_year,gdp_total))
+```
+
+***
+#### **PIB Total - Porcentaje**
+
+```{r}
+sliderInput("gdp_capita_total_year", "Año:",
+            min = 1960, max = 2017, step = 20,sep = "", 
+            value = 2017)
+```
+
+- Los datos están calculados al precio internacional del dólar del 2011, ajustado a inflación y a niveles de precio entre países
+- El rango de fechas está determinado por la disponibilidad de los datos.
+- Fuente: [Penn World Table](http://www.ggdc.net/pwt).
+
+
 
 Integrantes {data-icon="fa-user"}
 =========================================
