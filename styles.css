@@ -15,8 +15,20 @@
 
 .person-list{
   text-align: center;
-  padding: 5% 0% 5% 0%;
+  padding: 0% 0% 5% 0%;
   display: root-flow;
   width: 85%;
   margin: auto;
+}
+
+.portada{
+  text-align: center;
+  margin: 20px auto 0 auto;
+  width:500px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d1d1d1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
 }

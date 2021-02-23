@@ -234,6 +234,13 @@ Integrantes {data-icon="fa-user"}
 
 
 ```{r}
+tags$div(class="portada",
+  tags$p(tags$b("Curso:"),"Globalización, Ambiente y Desarrollo, IQ 2021, 8:30 pm."),
+  tags$p(tags$b("Profesor:"),"Jorge Cornick"),
+  tags$p(tags$b("Número de grupo:")," 1"),
+  tags$p("Trabajo grupal N.2"),
+  tags$p("23 de febrero 2021")
+)
 tags$div(class="person-list",
   create_person("Jose Andrés Moya Porras","Ingeniería Informática"),
   create_person("Alison Jazmira López Moreno","Ingeniería Informática"),
