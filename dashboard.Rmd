@@ -122,6 +122,12 @@ selectInput(
 ```
 
 
+- Los datos están calculados al precio internacional del dólar del 2011, ajustado a inflación y a niveles de precio entre países
+- El rango de fechas está determinado por la disponibilidad de los datos.
+- Fuente: [World Bank, PovcalNet](http://iresearch.worldbank.org/PovcalNet/povDuplicateWB.aspx)
+
+
+
 ### A nivel mundial, el porcentaje de personas con ingresos mayores a $10 continua amentando de forma constante, mientras la pobreza extrema disminuye
 
 
